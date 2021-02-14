@@ -1,0 +1,191 @@
+[debug] [2021-02-10T13:56:03.294Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T13:56:03.299Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Praveen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-10T13:56:03.299Z] CLI Version:   9.3.0
+[debug] [2021-02-10T13:56:03.299Z] Platform:      win32
+[debug] [2021-02-10T13:56:03.300Z] Node Version:  v14.15.1
+[debug] [2021-02-10T13:56:03.301Z] Time:          Wed Feb 10 2021 19:26:03 GMT+0530 (India Standard Time)
+[debug] [2021-02-10T13:56:03.302Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T13:56:03.302Z] 
+[debug] [2021-02-10T13:56:03.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-10T13:56:03.314Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web development\Reactjs\covid-19-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using covid-19-tracker-f5202. 
+[debug] [2021-02-10T13:56:13.318Z] > refreshing access token with scopes: []
+[debug] [2021-02-10T13:56:13.319Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-10T13:56:13.689Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 10 Feb 2021 13:56:13 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-10T13:56:13.710Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 [none]
+[debug] [2021-02-10T13:56:14.369Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 200
+[debug] [2021-02-10T13:56:14.369Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 {"projectId":"covid-19-tracker-f5202","projectNumber":"371822307984","displayName":"Covid-19-tracker","name":"projects/covid-19-tracker-f5202","resources":{"hostingSite":"covid-19-tracker-f5202"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-02-10T14:16:02.568Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-02-10T14:16:41.637Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T14:16:41.642Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Praveen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-10T14:16:41.643Z] CLI Version:   9.3.0
+[debug] [2021-02-10T14:16:41.643Z] Platform:      win32
+[debug] [2021-02-10T14:16:41.643Z] Node Version:  v14.15.1
+[debug] [2021-02-10T14:16:41.645Z] Time:          Wed Feb 10 2021 19:46:41 GMT+0530 (India Standard Time)
+[debug] [2021-02-10T14:16:41.646Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T14:16:41.646Z] 
+[debug] [2021-02-10T14:16:41.656Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-10T14:16:41.657Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web development\Reactjs\covid-19-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using covid-19-tracker-f5202. 
+[debug] [2021-02-10T14:16:47.171Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 [none]
+[debug] [2021-02-10T14:16:47.780Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 200
+[debug] [2021-02-10T14:16:47.781Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 {"projectId":"covid-19-tracker-f5202","projectNumber":"371822307984","displayName":"Covid-19-tracker","name":"projects/covid-19-tracker-f5202","resources":{"hostingSite":"covid-19-tracker-f5202"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-02-10T14:17:05.939Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-02-10T14:17:06.141Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-02-10T14:17:06.142Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.6","browserURL":"https://www.gstatic.com/firebasejs/8.2.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.6/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.6/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.6/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.6/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.6/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.6/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.6/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Web development\Reactjs\covid-19-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=703803768&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-02-10T14:19:58.773Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T14:19:58.776Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Praveen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-10T14:19:58.776Z] CLI Version:   9.3.0
+[debug] [2021-02-10T14:19:58.776Z] Platform:      win32
+[debug] [2021-02-10T14:19:58.776Z] Node Version:  v14.15.1
+[debug] [2021-02-10T14:19:58.777Z] Time:          Wed Feb 10 2021 19:49:58 GMT+0530 (India Standard Time)
+[debug] [2021-02-10T14:19:58.778Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T14:19:58.778Z] 
+[debug] [2021-02-10T14:19:58.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-10T14:19:58.785Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web development\Reactjs\covid-19-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using covid-19-tracker-f5202. 
+[debug] [2021-02-10T14:20:03.963Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 [none]
+[debug] [2021-02-10T14:20:04.439Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 200
+[debug] [2021-02-10T14:20:04.440Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-f5202 {"projectId":"covid-19-tracker-f5202","projectNumber":"371822307984","displayName":"Covid-19-tracker","name":"projects/covid-19-tracker-f5202","resources":{"hostingSite":"covid-19-tracker-f5202"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-02-10T14:20:14.839Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-02-10T14:20:15.775Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-02-10T14:20:15.776Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.6","browserURL":"https://www.gstatic.com/firebasejs/8.2.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.6/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.6/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.6/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.6/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.6/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.6/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.6/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Web development\Reactjs\covid-19-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=196003976&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-02-10T14:20:43.023Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"a52a8e93af2abb48f63e","redirect_uri":"http://localhost:9005","state":"196003976"}
+[debug] [2021-02-10T14:20:43.588Z] <<< HTTP RESPONSE 200 {"date":"Wed, 10 Feb 2021 14:20:43 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"aa7a9d6256fd82f49af9fa2aae07dd26\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"0D97:4431:780573:842D00:6023EBBA"}
+[debug] [2021-02-10T14:20:43.591Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-02-10T14:20:44.158Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-02-10T14:20:44.159Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"praveen-devv","id":78861770,"node_id":"MDQ6VXNlcjc4ODYxNzcw","avatar_url":"https://avatars.githubusercontent.com/u/78861770?v=4","gravatar_id":"","url":"https://api.github.com/users/praveen-devv","html_url":"https://github.com/praveen-devv","followers_url":"https://api.github.com/users/praveen-devv/followers","following_url":"https://api.github.com/users/praveen-devv/following{/other_user}","gists_url":"https://api.github.com/users/praveen-devv/gists{/gist_id}","starred_url":"https://api.github.com/users/praveen-devv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/praveen-devv/subscriptions","organizations_url":"https://api.github.com/users/praveen-devv/orgs","repos_url":"https://api.github.com/users/praveen-devv/repos","events_url":"https://api.github.com/users/praveen-devv/events{/privacy}","received_events_url":"https://api.github.com/users/praveen-devv/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2021-02-10T14:19:10Z","updated_at":"2021-02-10T14:19:10Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as praveen-devv 
+[info] 
+[debug] [2021-02-10T14:21:09.686Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:10.220Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:10.221Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:39.747Z] >>> [apiv2][query] GET https://api.github.com/repos/praveen-devv/actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:40.682Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:40.774Z] <<< [apiv2][status] GET https://api.github.com/repos/praveen-devv/actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:40.775Z] <<< [apiv2][body] GET https://api.github.com/repos/praveen-devv/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:41.141Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:41.142Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:44.689Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:45.231Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:45.231Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:48.457Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:48.942Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:48.943Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:49.461Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:49.733Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:49.941Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:49.941Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:50.209Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-02-10T14:21:50.223Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:50.223Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-02-10T14:21:50.706Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-02-10T14:21:50.706Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
